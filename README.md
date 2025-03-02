@@ -1,14 +1,14 @@
 # Memasang _Custom ROM_ PixelExperience di Redmi Note 4X
 Syarat : **Perangkat MIUI sudah UBL (Unlock Bootloader)**
 
-1. Mengunduh semua bahan
+1. Mengunduh semua bahan (**Cek Folder Bahan di Repo**)
    - Minimal ADB Fastboot (<a href="https://androiddatahost.com/uq6us">Unduh</a>) | (<a href="https://sfile.mobi/1qxDzlsaw0O7">Alternatif Unduh</a>) | (<a href="https://androidmtk.com/download-minimal-adb-and-fastboot-tool">Sumber</a>) | (<a href="https://androidmtk.com/install-minimal-adb-and-fastboot-tool">Cara Pasang</a>)
    - 15 Seconds ADB Installer (<a href="https://androiddatahost.com/jzkh5">Unduh</a>) | (<a href="https://androidmtk.com/download-15-seconds-adb-installer">Sumber</a>) | (<a href="https://androidmtk.com/download-best-android-adb-driver">Cara Pasang</a>)
    - OrangeFox Recovery (<a href="https://sourceforge.net/projects/nranjan-17/files/RETROFIT%20OrangeFox/OrangeFox-R11.1-A12-RETROFIT-Unofficial-mido.zip/download">Unduh</a>) | (<a href="https://www.mediafire.com/file/wxz60ewkhv1nx1j/OrangeFox-mido-stable@R11.1_2_A12_dynamic.zip/file">Alternatif Unduh</a>) | (<a href="https://get.pixelexperience.org/mido">Sumber</a>) | (<a href="https://raw.githubusercontent.com/NRanjan-17/Pixel-Experience-Releases/main/RETROFIT_GUIDE.md">Cara Pasang</a>) / Buka Video Referensi 1
    - TWRP Recovery (<a href="https://sourceforge.net/projects/alone0316/files/recovery/twrp-3.7.0_12.0-mido-A13.img/download">Unduh</a>) | (<a href="https://raw.githubusercontent.com/NRanjan-17/Pixel-Experience-Releases/main/RETROFIT_GUIDE.md">Sumber</a>) | (<a href="https://raw.githubusercontent.com/NRanjan-17/Pixel-Experience-Releases/main/RETROFIT_GUIDE.md">Cara Pasang</a>) / Buka Video Referensi 1
    - PixelExperience 13 ROM (<a href="https://get.pixelexperience.org/mido">Unduh</a>) | (<a href="https://get.pixelexperience.org/mido">Sumber</a>) | (<a href="https://raw.githubusercontent.com/NRanjan-17/Pixel-Experience-Releases/main/RETROFIT_GUIDE.md">Cara Pasang</a>) / Buka Video Referensi 2
    - DM Verity (<a href="https://sfile.mobi/9FrnDrBbZSp">Unduh</a>) | Cara Pasang Buka Video Referensi 1
-2. Langkah eksekusi
+2. Langkah eksekusi (**Cek Retrofit Guide di Repo**)
    - Pasang Minimal ADB Fastboot (Install biasa di PC)
    - Pasang 15 Seconds ADB Installer (Install biasa di PC)
    - Ekstrak file *OrangeFox.zip*, pindahkan file *recovery.img* dari OrangeFox ke dalam folder pemasangan Minimal ADB Fastboot (Default di **C:\Program Files (x86)\Minimal ADB and Fastboot**)
@@ -19,7 +19,7 @@ Syarat : **Perangkat MIUI sudah UBL (Unlock Bootloader)**
          <span style="color:red">*Jika tertulis unauthorized, izinkan usb debugging dengan klik OK pada layar HP, lalu ulangi langkah **(a)**</span>
         - (b) Masuk ke mode bootloader : ```adb reboot bootloader```
         - (c) Cek perangkat dalam mode fastboot : ```fastboot devices```  
-         <span style="color:red">*Jika perangkat otomatis restart sendiri, kemungkinan dapat diatasi dengan memasang/memperbarui driver (Cek folder **Fix Update Driver** pada repository ini) pada posisi perangkat mode fastboot</span>
+         <span style="color:red">*Jika perangkat otomatis restart sendiri, kemungkinan dapat diatasi dengan memasang/memperbarui driver (Cek folder **_Fix Update Driver_** di repository ini) pada posisi perangkat mode fastboot</span>
         - (d) Flash recovery : ```fastboot flash recovery.img```  
         <span style="color:red">*Jika mengalami error pada salah satu langkah diatas, disarankan untuk mengulang lagi dari langkah **(a)** sampai **(d)**
    - Masuk ke mode recovery
